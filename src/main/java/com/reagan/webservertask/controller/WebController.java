@@ -1,11 +1,13 @@
 package com.reagan.webservertask.controller;
 
 import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@CrossOrigin
 public class WebController {
 
     public static final String JSON_RESPONSE_STARTING = "{\n" ;
