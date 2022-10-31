@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/")
-@CrossOrigin
 public class WebController {
 
     public static final String JSON_RESPONSE_STARTING = "{\n" ;
